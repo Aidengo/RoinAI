@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app, origins="*", supports_credentials=True)
 
 # ========== 百炼OpenAI兼容接口配置 ==========
-ALIYUN_API_KEY = "sk-7a60986ab6334b928d7bf01b937aef38"  # 你的API Key
+ALIYUN_API_KEY = ""  # 你的API Key
 BAILIAN_COMPATIBLE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 MODEL_NAME = "qwen-turbo"
 
